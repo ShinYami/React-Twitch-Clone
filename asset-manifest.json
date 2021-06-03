@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Twitch-Clone/static/css/main.26a3237c.chunk.css",
-    "main.js": "/React-Twitch-Clone/static/js/main.7d663306.chunk.js",
-    "main.js.map": "/React-Twitch-Clone/static/js/main.7d663306.chunk.js.map",
+    "main.css": "/React-Twitch-Clone/static/css/main.d8d0fe68.chunk.css",
+    "main.js": "/React-Twitch-Clone/static/js/main.5596be87.chunk.js",
+    "main.js.map": "/React-Twitch-Clone/static/js/main.5596be87.chunk.js.map",
     "runtime-main.js": "/React-Twitch-Clone/static/js/runtime-main.d8e88e98.js",
     "runtime-main.js.map": "/React-Twitch-Clone/static/js/runtime-main.d8e88e98.js.map",
     "static/js/2.582d002f.chunk.js": "/React-Twitch-Clone/static/js/2.582d002f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1bc58aae.chunk.js": "/React-Twitch-Clone/static/js/3.1bc58aae.chunk.js",
     "static/js/3.1bc58aae.chunk.js.map": "/React-Twitch-Clone/static/js/3.1bc58aae.chunk.js.map",
     "index.html": "/React-Twitch-Clone/index.html",
-    "static/css/main.26a3237c.chunk.css.map": "/React-Twitch-Clone/static/css/main.26a3237c.chunk.css.map",
+    "static/css/main.d8d0fe68.chunk.css.map": "/React-Twitch-Clone/static/css/main.d8d0fe68.chunk.css.map",
     "static/js/2.582d002f.chunk.js.LICENSE.txt": "/React-Twitch-Clone/static/js/2.582d002f.chunk.js.LICENSE.txt",
     "static/media/Croix.2b9b9747.svg": "/React-Twitch-Clone/static/media/Croix.2b9b9747.svg",
     "static/media/IconeTwitch.72d35b74.svg": "/React-Twitch-Clone/static/media/IconeTwitch.72d35b74.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.d8e88e98.js",
     "static/js/2.582d002f.chunk.js",
-    "static/css/main.26a3237c.chunk.css",
-    "static/js/main.7d663306.chunk.js"
+    "static/css/main.d8d0fe68.chunk.css",
+    "static/js/main.5596be87.chunk.js"
   ]
 }
