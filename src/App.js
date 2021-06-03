@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Components/Header/Header.jsx";
+import Sidebar from "./Components/Sidebar/Sidebar.jsx";
+import Games from "./Components/Games/Games.jsx";
+import TopStream from "./Components/TopStreams/TopStreams";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Live from "./Components/Live/Live";
+import GameStreams from "./Components/GameStreams/GameStreams";
+import Resultats from "./Components/Resultats/Resultats";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Sidebar />
+        <Switch>
+          <Route exact path="/" component={Games} />
+          <Route exact path="/top-streams" component={TopStream} />
+          <Route exact path="/live/:slug" component={Live} />
+          <Route exact path="/game/:slug" component={GameStreams} />
+          <Route exact path="/resultats/:slug" component={Resultats} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
